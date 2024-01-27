@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-engineering-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["Liu-Ming-Yu"]
+readme = "README.md"
+packages = [{include = "data_engineering_zoomcamp"}]
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+numpy = "^1.26.3"
+pandas = "^2.2.0"
+polars = "^0.20.5"
+sqlalchemy = "^2.0.25"
+psycopg2 = "^2.9.9"
+pyarrow = "^15.0.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
